@@ -1,0 +1,28 @@
+# Environment and secrets
+.env
+*.env
+.env.*
+.streamlit/secrets.toml
+secrets.toml
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary directories and artifacts
+tmp/
+temp/
+*.log
+.DS_Store
+Thumbs.db
+
